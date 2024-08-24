@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow: hidden;
+    height:100vh;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 80px;
+}
+
+
+header img{
+    width: 40px;
+}
+.banner{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -10;
+}
+main{
+    height:fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px 50px;
+    position: relative;
+}
+
+
+main nav{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ h1{
+    color:white;
+}
+
+.reset{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid rgba(200,200,0,0.5);
+    padding: 10px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.celcius{
+    display: flex;
+    font-size: 80px;
+    border: 4px solid red;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    left: 230px;
+    top: 100px;
+    margin: 20px;
+}
+
+.farenheight{
+    display: flex;
+    font-size: 80px;
+    border: 4px solid green;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    right: 280px;
+    top: 10px;
+    margin: 20px;
+}
+
+
+ main div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    gap: 30px;
+}
+main div form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+
+button{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid red;
+    padding: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+span{
+    display: flex;
+    gap: 20px;
+}
+span img{
+    transition: 1s;
+    cursor: pointer;
+}
+span img:hover{
+    transform: scale(1.2);
+}
+
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

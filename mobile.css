@@ -1,0 +1,28 @@
+@media(max-width:450px){
+
+header{
+    padding: 10px 50px;
+}
+
+.farenheight{
+    right: 220px;
+    top: 20px;
+    margin: 0px;
+    margin-right: 0px;
+}
+.celcius{
+
+}
+
+main div{
+    margin-top: 395px;
+    gap: 40px;
+}
+
+
+footer{
+    margin-top: 27px;
+}
+
+
+}
